@@ -5,4 +5,5 @@ final class ImagesListCell: UITableViewCell {
     @IBOutlet var cellImage: UIImageView!
     @IBOutlet var dateLabel: UILabel!
     @IBOutlet var likeButton: UIButton!
+    @IBOutlet var gadientView: UIView!
 }
