@@ -77,7 +77,7 @@
                                         <connections>
                                             <outlet property="cellImage" destination="UHT-CC-7rY" id="HFA-zi-kQW"/>
                                             <outlet property="dateLabel" destination="zZ7-qv-kLf" id="DY8-8I-hpG"/>
-                                            <outlet property="gadientView" destination="0pB-Ge-leU" id="00V-0J-Pxx"/>
+                                            <outlet property="gradientView" destination="0pB-Ge-leU" id="00V-0J-Pxx"/>
                                             <outlet property="likeButton" destination="sdE-8c-JJO" id="SZe-CB-0Xn"/>
                                         </connections>
                                     </tableViewCell>
