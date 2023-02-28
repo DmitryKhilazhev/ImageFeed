@@ -33,7 +33,7 @@ extension ImagesListViewController: UITableViewDataSource {
         guard let imageListCell = cell as? ImagesListCell else {
             return UITableViewCell()
         }
-
+        
         configCell(for: imageListCell, with: indexPath)
 
         return imageListCell
@@ -53,25 +53,13 @@ extension ImagesListViewController {
         let likeImage = isLiked ? UIImage(named: "like_button_on") : UIImage(named: "like_button_off")
         cell.likeButton.setImage(likeImage, for: .normal)
         
-        //Добавляю скругление для gradientView
-        cell.gradientView.clipsToBounds = true
-        cell.gradientView.layer.cornerRadius = 10
-        cell.gradientView.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
-        
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = cell.gradientView.bounds
-        let color1 = UIColor(red: 26, green: 27, blue: 34, alpha: 0)
-        let color2 = UIColor(red: 26, green: 27, blue: 34, alpha: 0.2)
-        gradientLayer.colors = [color1.cgColor, color2.cgColor]
-        gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
-        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
-        cell.gradientView.layer.insertSublayer(gradientLayer, at: 0)
+
     }
 }
 
 extension ImagesListViewController: UITableViewDelegate {
     /// Метод отвечает за действия, которые будут выполнены при тапе по ячейке таблицы. «Адрес» ячейки, который содержится в indexPath, передаётся в качестве аргумента.
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {}
+   // func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {}
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         guard let image = UIImage(named: photosName[indexPath.row]) else {
