@@ -47,6 +47,7 @@ final class ProfileViewController: UIViewController {
         self.accountFullNameLabel = label
     }
 
+    
     private func getUserLabel() {
         let label = UILabel()
         setUserLabel(label: label)
