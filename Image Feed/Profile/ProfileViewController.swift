@@ -87,21 +87,18 @@ final class ProfileViewController: UIViewController {
         label.text = "Екатерина Новикова"
         label.textColor = UIColor.ypWhiteIOS
         label.font = UIFont.boldSystemFont(ofSize: 23)
-   //     label.font = UIFont(name: "SF-Pro-Text-Bold", size: 23)
     }
 
     private func setUserLabel(label: UILabel) {
         label.text = "@ekaterina_nov"
         label.textColor = UIColor.ypGray
         label.font = UIFont.systemFont(ofSize: 13)
-    //    label.font = UIFont(name: "SF-Pro-Text-Regular" , size: 13)
     }
 
     private func setAccountDescription(label: UILabel) {
         label.text = "Hello, world!"
         label.textColor = UIColor.ypWhite
         label.font = UIFont.systemFont(ofSize: 13)
-   //     label.font = UIFont(name: "SF-Pro-Text-Regular", size: 13)
     }
 
     private  func setAccountLogoutButton(button: UIButton) {
