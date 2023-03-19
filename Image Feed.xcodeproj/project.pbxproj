@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0A02E48C29B254A800100391 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02E48B29B254A800100391 /* ProfileViewController.swift */; };
 		0A14AB5E29BDD583003A41E3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14AB5D29BDD583003A41E3 /* Colors.swift */; };
-		0A14AB6A29BDE07A003A41E3 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A14AB6829BDE070003A41E3 /* SF-Pro-Text-Bold.otf */; };
-		0A14AB6B29BDE07D003A41E3 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A14AB6929BDE070003A41E3 /* SF-Pro-Text-Regular.otf */; };
 		0A6B630729B51C9800EA144F /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B630629B51C9800EA144F /* SingleImageViewController.swift */; };
 		7D3DFB1528DDF696005A13F3 /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3DFB1328DDF696005A13F3 /* ImagesListCell.swift */; };
 		7D3DFB1628DDF696005A13F3 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3DFB1428DDF696005A13F3 /* ImagesListViewController.swift */; };
@@ -24,8 +22,6 @@
 /* Begin PBXFileReference section */
 		0A02E48B29B254A800100391 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0A14AB5D29BDD583003A41E3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		0A14AB6829BDE070003A41E3 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
-		0A14AB6929BDE070003A41E3 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
 		0A6B630629B51C9800EA144F /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		7D3DFB1328DDF696005A13F3 /* ImagesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
 		7D3DFB1428DDF696005A13F3 /* ImagesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesListViewController.swift; sourceTree = "<group>"; };
@@ -65,15 +61,6 @@
 			path = Helpes;
 			sourceTree = "<group>";
 		};
-		0A14AB5F29BDD9D5003A41E3 /* Resourses */ = {
-			isa = PBXGroup;
-			children = (
-				0A14AB6829BDE070003A41E3 /* SF-Pro-Text-Bold.otf */,
-				0A14AB6929BDE070003A41E3 /* SF-Pro-Text-Regular.otf */,
-			);
-			path = Resourses;
-			sourceTree = "<group>";
-		};
 		0A6B630929B51E0200EA144F /* SingleImageViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +97,6 @@
 				7D9CFA4B28DDEE8000D971A7 /* Assets.xcassets */,
 				7D9CFA4D28DDEE8000D971A7 /* LaunchScreen.storyboard */,
 				7D9CFA5028DDEE8000D971A7 /* Info.plist */,
-				0A14AB5F29BDD9D5003A41E3 /* Resourses */,
 				0A14AB5C29BDD557003A41E3 /* Helpes */,
 			);
 			path = "Image Feed";
@@ -184,9 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D9CFA4F28DDEE8000D971A7 /* LaunchScreen.storyboard in Resources */,
-				0A14AB6B29BDE07D003A41E3 /* SF-Pro-Text-Regular.otf in Resources */,
 				7D9CFA4C28DDEE8000D971A7 /* Assets.xcassets in Resources */,
-				0A14AB6A29BDE07A003A41E3 /* SF-Pro-Text-Bold.otf in Resources */,
 				7D9CFA4A28DDEE7F00D971A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
