@@ -314,13 +314,20 @@
                                     <action selector="didTapBackButton:" destination="Gud-mQ-DgL" eventType="touchUpInside" id="7Ku-pL-7kb"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Fck-dj-287">
+                                <rect key="frame" x="0.0" y="88" width="414" height="4"/>
+                                <color key="progressTintColor" red="0.1019607843" green="0.1058823529" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VxR-aW-GeJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Fck-dj-287" secondAttribute="trailing" id="62H-ep-CZT"/>
+                            <constraint firstItem="Fck-dj-287" firstAttribute="leading" secondItem="Tpj-JH-gq7" secondAttribute="leading" id="8np-Pi-a6h"/>
                             <constraint firstItem="tz6-Tu-xap" firstAttribute="top" secondItem="Tpj-JH-gq7" secondAttribute="top" id="AWb-HP-M1x"/>
                             <constraint firstAttribute="trailing" secondItem="tz6-Tu-xap" secondAttribute="trailing" id="BEQ-Ym-Z1a"/>
                             <constraint firstItem="Fdv-wh-MU0" firstAttribute="leading" secondItem="VxR-aW-GeJ" secondAttribute="leading" id="N1Q-uG-2Gg"/>
+                            <constraint firstItem="Fck-dj-287" firstAttribute="top" secondItem="Fdv-wh-MU0" secondAttribute="bottom" id="T3w-Fo-ygk"/>
                             <constraint firstItem="tz6-Tu-xap" firstAttribute="leading" secondItem="Tpj-JH-gq7" secondAttribute="leading" id="UiZ-fY-Vjs"/>
                             <constraint firstAttribute="bottom" secondItem="tz6-Tu-xap" secondAttribute="bottom" id="iPh-PJ-dDP"/>
                             <constraint firstItem="Fdv-wh-MU0" firstAttribute="top" secondItem="VxR-aW-GeJ" secondAttribute="top" id="qPt-ji-EZ2"/>
@@ -328,12 +335,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="IuX-Kx-ca2"/>
                     <connections>
+                        <outlet property="progressView" destination="Fck-dj-287" id="UYW-qV-cdV"/>
                         <outlet property="webView" destination="tz6-Tu-xap" id="cgn-3c-Ceu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lLq-Of-EXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2103" y="-697"/>
+            <point key="canvasLocation" x="2102.898550724638" y="-697.09821428571422"/>
         </scene>
     </scenes>
     <resources>
